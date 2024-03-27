@@ -4,8 +4,8 @@ Try to solve task from pictures given
 
 ## Task 1
 
-![Pictures Task1](/ChallengeMIKTI/Challenge-Mikti-02/Documentation/Ch1.0.png)
-![Pictures Task1](/ChallengeMIKTI/Challenge-Mikti-02/Documentation/Ch1.1.png)
+![Pictures Task1](https://github.com/AnomID/ChallengeMIKTI/blob/main/Challenge-Mikti-02/Documentation/Ch1.0.png)
+![Pictures Task1](https://github.com/AnomID/ChallengeMIKTI/blob/main/Challenge-Mikti-02/Documentation/Ch1.1.png)
 
 From pictures above, we can solve the problem use struct to create object Lumba-Lumba and Koala and inputed point
 
@@ -30,11 +30,11 @@ So from create object and use code can get output
 --How To Run--
 Open terminal and go to Challenge-Mikti-02 Directory, then command go run tugas1.go
 
-![Ouput Task1](/ChallengeMIKTI/Challenge-Mikti-02/Documentation/O-Ch1.png)
+![Ouput Task1](https://github.com/AnomID/ChallengeMIKTI/blob/main/Challenge-Mikti-02/Documentation/O-Ch1.png)
 
 ## Task 2
 
-![Pictures Task2](/ChallengeMIKTI/Challenge-Mikti-02/Documentation/Ch2.png)
+![Pictures Task2](https://github.com/AnomID/ChallengeMIKTI/blob/main/Challenge-Mikti-02/Documentation/Ch2.png)
 
 Same way to solve task 2 like task 1, use struct person to create object Mark and John
 
@@ -49,3 +49,7 @@ Data2
 Object :
 Mark : 188, 95
 John : 176, 85
+
+The Output value from data :
+
+![Pictures Task2](https://github.com/AnomID/ChallengeMIKTI/blob/main/Challenge-Mikti-02/Documentation/O-Ch2.png)
