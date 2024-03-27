@@ -4,13 +4,14 @@ import (
 	"fmt"
 )
 
+// Function main
 func main() {
 	print1()
 	printBonus1()
 	printBonus2()
 }
 
-// Belajar Struct dan Interface
+// Try to Make Struct dan Interface
 
 // type print interface {
 // 	participant()
@@ -19,7 +20,7 @@ func main() {
 // 	bonus(q participant)
 // }
 
-// Create struct for data participants
+// Create struct for data object participants
 type participant struct {
 	name                   string
 	point1, point2, point3 float64
@@ -30,12 +31,13 @@ type participant struct {
 
 // }
 
-// Create struct for mean
+// Create function for mean formula
 func (p participant) mean() float64 {
 	return (p.point1 + p.point2 + p.point3) / 3
 }
 
-// Create struct for condition rule >= 100
+// Create function for condition rule >= 100
+// Use bool return to check for bonus function
 func (p participant) rule() bool {
 	data := p.mean()
 	if data >= 100 {
@@ -62,6 +64,7 @@ func (p participant) rule() bool {
 // }
 
 // Make condition rule for who win, lose, or tie
+
 func (p participant) bonus(q participant) participant {
 	if p.rule() {
 		if p.mean() == q.mean() {
@@ -81,11 +84,15 @@ func (p participant) bonus(q participant) participant {
 	return participant{}
 }
 
+// Function to ouput participant information
 func (p participant) info(q participant) participant {
 	fmt.Printf("\nNilai dari masing-masing tim : \n%s : %.2f, %.2f, %.2f (%.2f)\n%s : %.2f, %.2f, %.2f (%.2f)\n", p.name, p.point1, p.point2, p.point3, p.mean(), q.name, q.point1, q.point2, q.point3, q.mean())
 	return participant{}
 }
 
+// Function output to print participant
+// Participant1 = {name, point1, point2, point3}
+// participant2 = {name, point1, point2, point3
 func print1() {
 	participant1 := participant{"Lumba-Lumba", 96, 108, 89}
 	participant2 := participant{"Koala", 88, 91, 110}
